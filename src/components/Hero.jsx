@@ -91,7 +91,7 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="mt-10 flex flex-col sm:flex-row items-center sm:justify-start ">
+          <div className="mt-10 flex justify-center sm:justify-start">
             {/* WhatsApp Button */}
             <a
               href="https://wa.me/8555067676"
