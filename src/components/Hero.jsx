@@ -92,7 +92,7 @@ const Hero = () => {
           </div>
 
           <div className="mt-10 flex flex-col items-center justify-center gap-6 
-                sm:flex-row sm:justify-start sm:ml-36 md:ml-36 lg:ml-36">
+                sm:flex-row sm:justify-center lg:justify-start lg:ml-36">>
             {/* WhatsApp Button */}
             <a
               href="https://wa.me/8555067676"
