@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(ellipse at bottom, #0f051d 0%, #000000 100%);
+  color: white;
+  overflow-x: hidden;
+}
+
+.app-container {
+  min-height: 100vh;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png"); /* Grid effect */
+  background-size: cover;
+  padding: 2rem;
+}
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.hero-left {
+  max-width: 600px;
+}
+
+.ready {
+  color: #a855f7;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.main-title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.main-title span {
+  color: #a855f7;
+}
+
+.desc {
+  margin: 1.2rem 0;
+  color: #ccc;
+  font-size: 1.1rem;
+}
+
+.tech-stack span {
+  display: inline-block;
+  padding: 8px 14px;
+  margin: 5px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid #555;
+  border-radius: 999px;
+  font-size: 0.9rem;
+}
+
+.buttons {
+  margin: 1.5rem 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.primary-btn,
+.secondary-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.primary-btn {
+  background: #a855f7;
+  color: white;
+  box-shadow: 0 0 10px #a855f7;
+}
+
+.secondary-btn {
+  background: transparent;
+  color: #a855f7;
+  border: 1px solid #a855f7;
+}
+
+.social-icons {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  color: white;
+}
+
+.hero-right img {
+  max-height: 300px;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
